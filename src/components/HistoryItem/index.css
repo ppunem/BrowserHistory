@@ -1,0 +1,38 @@
+.item-container {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+.time {
+  color: #475569;
+  font-family: 'roboto';
+  font-size: 14px;
+}
+.app-container {
+  display: flex;
+  width: 50%;
+}
+.app {
+  height: 15px;
+  margin-top: 15px;
+  margin-right: 15px;
+}
+.title {
+  color: #475569;
+  font-size: 14px;
+  font-family: 'roboto';
+  margin-right: 15px;
+}
+.url {
+  color: #64748b;
+  font-size: 14px;
+  font-family: 'roboto';
+}
+.del-button {
+  background-color: transparent;
+  border:1px solid red;
+
+}
+.delete {
+  height: 15px;
+}

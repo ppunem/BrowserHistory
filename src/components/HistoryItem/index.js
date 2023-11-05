@@ -1,8 +1,8 @@
 import './index.css'
 
 const HistoryItem = props => {
-  const {details} = props
-  const {id, timeAccessed, logoUrl, title, domainUrl, delItem} = details
+  const {details, delItem} = props
+  const {id, timeAccessed, logoUrl, title, domainUrl} = details
 
   const removeItem = () => {
     delItem(id)
